@@ -364,7 +364,32 @@
     .fb-embed-col iframe { border: 1px solid var(--line); display: block; }
 
 
-    /* VENUES */
+
+    /* VENUE-GIG COMBINED BLOCKS */
+    .venue-gig-block { margin-top: 48px; }
+    .venue-gig-block + .venue-gig-block { margin-top: 56px; }
+    .venue-gig-header { margin-bottom: 0; }
+    .venue-gig-info h3 {
+      font-family: var(--display); font-weight: 800; font-stretch: 70%;
+      text-transform: uppercase; letter-spacing: 0.04em;
+      font-size: 1.5rem; color: var(--cream);
+      padding-bottom: 10px;
+      border-bottom: 3px solid var(--brass);
+      display: inline-block; margin-bottom: 10px;
+    }
+    .venue-gig-address { font-family: var(--display); font-stretch: 88%; font-size: 0.82rem; letter-spacing: 0.08em; color: var(--cream-dim); margin-bottom: 8px; }
+    .venue-gig-address a { color: var(--cream-dim); }
+    .venue-gig-address a:hover { color: var(--brass-soft); }
+    .venue-gig-desc { font-style: italic; color: var(--cream-dim); font-size: 0.92rem; max-width: 660px; margin-bottom: 10px; }
+    .venue-gig-links { display: flex; gap: 18px; margin-bottom: 4px; }
+    .venue-gig-links a {
+      font-family: var(--display); font-stretch: 85%;
+      font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--brass-soft);
+    }
+    .venue-gig-links a:hover { color: var(--cream); }
+
+    /* VENUE CARDS (standalone, kept for reference) */
     .venue-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:44px; }
     @media(max-width:880px){ .venue-grid { grid-template-columns:1fr 1fr; } }
     @media(max-width:560px){ .venue-grid { grid-template-columns:1fr; } }
@@ -400,7 +425,6 @@
       <li><a href="#duo">The Duo</a></li>
       <li><a href="#occasions">Occasions</a></li>
       <li><a href="#videos">Listen</a></li>
-      <li><a href="#venues">Venues</a></li>
       <li><a href="#press">Press</a></li>
       <li><a href="#social">Social</a></li>
       <li><a href="#book">Book Us</a></li>
@@ -445,72 +469,97 @@
   <div class="wrap">
     <p class="eyebrow">Catch Us Live</p>
     <h2>Upcoming Gigs</h2>
-    <div class="gig-list">
-      <div class="gig">
-        <div class="gig-date">Jun<br><span class="d">21</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>City Cafe</h3>
-          <p>Jazz Brunch · Baton Rouge, Louisiana</p>
+
+    <!-- VENUE BLOCK: The Brakes Bar -->
+    <div class="venue-gig-block">
+      <div class="venue-gig-header">
+        <div class="venue-gig-info">
+          <h3>The Brakes Bar</h3>
+          <p class="venue-gig-address">5412 Government St, Suite B · Baton Rouge, LA 70806 · <a href="tel:2255293550">(225) 529-3550</a></p>
+          <p class="venue-gig-desc">A speakeasy-inspired cocktail bar in Mid-City Baton Rouge — foraged botanicals, locally sourced ingredients, and a vintage vibe. Standley &amp; Tupper holds a regular live music residency here.</p>
+          <p class="venue-gig-links">
+            <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">Website</a>
+            <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>
+          </p>
         </div>
-        <div class="gig-time">Brunch</div>
       </div>
-      <div class="gig">
-        <div class="gig-date">Jun<br><span class="d">24</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>The Brakes</h3>
-          <p>Baton Rouge, Louisiana</p>
+      <div class="gig-list">
+        <div class="gig">
+          <div class="gig-date">Jun<br><span class="d">24</span><br>2026</div>
+          <div class="gig-venue"><h3>The Brakes Bar</h3><p>Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">6 – 10pm</div>
         </div>
-        <div class="gig-time">6 – 10pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Jul<br><span class="d">01</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>The Brakes</h3>
-          <p>Baton Rouge, Louisiana</p>
+        <div class="gig">
+          <div class="gig-date">Jul<br><span class="d">01</span><br>2026</div>
+          <div class="gig-venue"><h3>The Brakes Bar</h3><p>Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">6 – 10pm</div>
         </div>
-        <div class="gig-time">6 – 10pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Jul<br><span class="d">15</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>The Brakes</h3>
-          <p>Baton Rouge, Louisiana</p>
+        <div class="gig">
+          <div class="gig-date">Jul<br><span class="d">15</span><br>2026</div>
+          <div class="gig-venue"><h3>The Brakes Bar</h3><p>Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">6 – 10pm</div>
         </div>
-        <div class="gig-time">6 – 10pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Jul<br><span class="d">22</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>The Brakes</h3>
-          <p>Baton Rouge, Louisiana</p>
+        <div class="gig">
+          <div class="gig-date">Jul<br><span class="d">22</span><br>2026</div>
+          <div class="gig-venue"><h3>The Brakes Bar</h3><p>Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">6 – 10pm</div>
         </div>
-        <div class="gig-time">6 – 10pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Jul<br><span class="d">29</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>The Brakes</h3>
-          <p>Baton Rouge, Louisiana</p>
+        <div class="gig">
+          <div class="gig-date">Jul<br><span class="d">29</span><br>2026</div>
+          <div class="gig-venue"><h3>The Brakes Bar</h3><p>Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">6 – 10pm</div>
         </div>
-        <div class="gig-time">6 – 10pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Aug<br><span class="d">08</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>Community Grocery Café</h3>
-          <p>Woodville, Mississippi</p>
-        </div>
-        <div class="gig-time">11am – 2pm</div>
-      </div>
-      <div class="gig">
-        <div class="gig-date">Aug<br><span class="d">22</span><br>2026</div>
-        <div class="gig-venue">
-          <h3>Community Grocery Café</h3>
-          <p>Woodville, Mississippi</p>
-        </div>
-        <div class="gig-time">11am – 2pm</div>
       </div>
     </div>
+
+    <!-- VENUE BLOCK: City Cafe -->
+    <div class="venue-gig-block">
+      <div class="venue-gig-header">
+        <div class="venue-gig-info">
+          <h3>City Cafe</h3>
+          <p class="venue-gig-address">4710 O'Neal Ln, Suite 113 · Baton Rouge, LA 70817 · <a href="tel:2257534420">(225) 753-4420</a></p>
+          <p class="venue-gig-desc">A Baton Rouge institution since 1919, serving Southern cuisine with a warm neighborhood feel. Standley &amp; Tupper performs jazz brunch here on select Sundays.</p>
+          <p class="venue-gig-links">
+            <a href="https://citycafebr.net" rel="noopener" target="_blank">Website</a>
+          </p>
+        </div>
+      </div>
+      <div class="gig-list">
+        <div class="gig">
+          <div class="gig-date">Jun<br><span class="d">21</span><br>2026</div>
+          <div class="gig-venue"><h3>City Cafe</h3><p>Jazz Brunch · Baton Rouge, Louisiana</p></div>
+          <div class="gig-time">Brunch</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VENUE BLOCK: Community Grocery -->
+    <div class="venue-gig-block">
+      <div class="venue-gig-header">
+        <div class="venue-gig-info">
+          <h3>Community Grocery</h3>
+          <p class="venue-gig-address">525 Commercial Row · Woodville, MS 39669 · <a href="tel:6018655010">(601) 865-5010</a></p>
+          <p class="venue-gig-desc">A celebrated gathering place on Woodville's Historic Courthouse Square — part restaurant, part community anchor. Standley &amp; Tupper performs live jazz lunch here on select Saturdays.</p>
+          <p class="venue-gig-links">
+            <a href="https://communitygroceryms.com" rel="noopener" target="_blank">Website</a>
+            <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>
+          </p>
+        </div>
+      </div>
+      <div class="gig-list">
+        <div class="gig">
+          <div class="gig-date">Aug<br><span class="d">08</span><br>2026</div>
+          <div class="gig-venue"><h3>Community Grocery</h3><p>Woodville, Mississippi</p></div>
+          <div class="gig-time">11am – 2pm</div>
+        </div>
+        <div class="gig">
+          <div class="gig-date">Aug<br><span class="d">22</span><br>2026</div>
+          <div class="gig-venue"><h3>Community Grocery</h3><p>Woodville, Mississippi</p></div>
+          <div class="gig-time">11am – 2pm</div>
+        </div>
+      </div>
+    </div>
+
     <p class="gig-note">Want Standley &amp; Tupper at your venue or event? <a href="#book">Get in touch →</a></p>
   </div>
 </section>
@@ -594,51 +643,6 @@
       </a>
     </div>
     <p class="gig-note" style="margin-top:28px;">More performances on <a href="https://www.youtube.com/@jordanjtupper" rel="noopener" target="_blank">YouTube →</a></p>
-  </div>
-</section>
-
-<section id="venues">
-  <div class="wrap">
-    <p class="eyebrow">Where We Play</p>
-    <h2>Our Venues</h2>
-    <div class="venue-grid">
-
-      <div class="venue-card">
-        <p class="venue-city">Baton Rouge, Louisiana</p>
-        <h3>The Brakes Bar</h3>
-        <p class="venue-detail">5412 Government St, Suite B<br>Baton Rouge, LA 70806</p>
-        <p class="venue-detail">(225) 529-3550</p>
-        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A speakeasy-inspired cocktail bar in Mid-City, featuring foraged botanicals, locally sourced ingredients, and a vintage 60s &amp; 70s vibe. Standley &amp; Tupper holds a regular live music residency here.</p>
-        <div class="venue-links">
-          <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">↗ spokeandhubbr.com/brakes-bar</a>
-          <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">↗ Facebook: @thebrakesbarbr</a>
-        </div>
-      </div>
-
-      <div class="venue-card">
-        <p class="venue-city">Baton Rouge, Louisiana</p>
-        <h3>City Cafe</h3>
-        <p class="venue-detail">4710 O'Neal Ln, Suite 113<br>Baton Rouge, LA 70817</p>
-        <p class="venue-detail">(225) 753-4420</p>
-        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A Baton Rouge institution since 1919, City Cafe serves Southern cuisine with a warm neighborhood feel. Standley &amp; Tupper performs jazz brunch here on select Sundays.</p>
-        <div class="venue-links">
-          <a href="https://citycafebr.net" rel="noopener" target="_blank">↗ citycafebr.net</a>
-        </div>
-      </div>
-
-      <div class="venue-card">
-        <p class="venue-city">Woodville, Mississippi</p>
-        <h3>Community Grocery</h3>
-        <p class="venue-detail">525 Commercial Row<br>Woodville, MS 39669</p>
-        <p class="venue-detail">(601) 865-5010</p>
-        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A celebrated gathering place on Woodville's Historic Courthouse Square — part restaurant, part community anchor. Standley &amp; Tupper performs live jazz lunch here on select Saturdays.</p>
-        <div class="venue-links">
-          <a href="https://communitygroceryms.com" rel="noopener" target="_blank">↗ communitygroceryms.com</a>
-          <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">↗ Facebook: @communitygroceryms</a>
-        </div>
-      </div>
-
-    </div>
   </div>
 </section>
 
