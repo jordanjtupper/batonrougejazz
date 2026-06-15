@@ -170,6 +170,42 @@
         "url": "https://www.batonrougejazz.com/",
         "name": "Baton Rouge Jazz — Standley & Tupper",
         "publisher": { "@id": "https://www.batonrougejazz.com/#group" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.batonrougejazz.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What style of jazz does Standley & Tupper play?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Standley & Tupper performs timeless classics in the cool jazz style — melodic, unhurried, and tasteful. Think great American songbook standards: the kind of jazz that lifts a room without overpowering conversation." }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does Standley & Tupper perform in Baton Rouge?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Standley & Tupper holds a regular live music residency at The Brakes Bar (5412 Government St, Baton Rouge) and performs jazz brunch at City Cafe (4710 O'Neal Ln, Baton Rouge). The duo also performs at Community Grocery in Woodville, Mississippi." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I book Standley & Tupper for my event in Baton Rouge?",
+            "acceptedAnswer": { "@type": "Answer", "text": "You can book Standley & Tupper by emailing jstandley@getgordon.com or jordan.j.tupper@gmail.com, or by using the contact form at batonrougejazz.com. The duo is available for restaurants, weddings, private parties, corporate events, and galas across Baton Rouge and south Louisiana." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Standley & Tupper perform at weddings and private events?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — Standley & Tupper is available for weddings, cocktail hours, receptions, anniversary parties, corporate galas, and private events throughout Baton Rouge, south Louisiana, and southwest Mississippi." }
+          },
+          {
+            "@type": "Question",
+            "name": "Who are the members of Standley & Tupper?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Standley & Tupper is guitarist Jim Standley and bassist Jordan Tupper. Jim Standley is a Baton Rouge jazz guitarist with decades of experience performing the great American songbook. Jordan Tupper is a Baton Rouge musician, music educator, and 2024 Grammy Music Educator Award Quarterfinalist who also performs with Night Hog and Cover 6 Band." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Standley & Tupper available for restaurant dinner service?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Standley & Tupper specializes in dinner-service jazz — loud enough to enjoy, soft enough to talk over. The duo regularly performs at restaurants and cafés in Baton Rouge and is available for ongoing residencies or one-time engagements." }
+          }
+        ]
       }
     ]
   }
@@ -327,6 +363,29 @@
     .fb-link-block a.fb-btn svg { flex-shrink: 0; }
     .fb-embed-col iframe { border: 1px solid var(--line); display: block; }
 
+
+    /* VENUES */
+    .venue-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:44px; }
+    @media(max-width:880px){ .venue-grid { grid-template-columns:1fr 1fr; } }
+    @media(max-width:560px){ .venue-grid { grid-template-columns:1fr; } }
+    .venue-card { background:var(--ink-2); border:1px solid var(--line); padding:32px 28px; position:relative; }
+    .venue-card::before { content:""; position:absolute; top:0; left:0; width:44px; height:5px; background:var(--brass); }
+    .venue-card h3 { font-family:var(--display); font-weight:800; font-stretch:72%; text-transform:uppercase; font-size:1.3rem; margin-bottom:6px; }
+    .venue-city { font-family:var(--display); font-stretch:90%; letter-spacing:0.25em; text-transform:uppercase; font-size:0.68rem; color:var(--brass); margin-bottom:14px; }
+    .venue-detail { font-size:0.9rem; color:var(--cream-dim); margin-bottom:4px; }
+    .venue-links { margin-top:16px; display:flex; flex-direction:column; gap:6px; }
+    .venue-links a { font-family:var(--display); font-stretch:85%; font-size:0.78rem; letter-spacing:0.14em; text-transform:uppercase; }
+
+    /* PRESS */
+    .press-list { margin-top:44px; display:flex; flex-direction:column; gap:0; }
+    .press-item { padding:26px 0; border-top:1px solid var(--line); display:grid; grid-template-columns:140px 1fr; gap:28px; align-items:start; }
+    .press-item:last-child { border-bottom:1px solid var(--line); }
+    .press-source { font-family:var(--display); font-weight:700; font-stretch:75%; text-transform:uppercase; letter-spacing:0.06em; font-size:0.9rem; color:var(--brass-soft); }
+    .press-year { font-family:var(--display); font-stretch:90%; font-size:0.72rem; letter-spacing:0.2em; color:var(--cream-dim); margin-top:4px; }
+    .press-desc { color:var(--cream-dim); font-size:0.95rem; }
+    .press-desc a { font-family:var(--display); font-stretch:85%; font-size:0.75rem; letter-spacing:0.16em; text-transform:uppercase; display:inline-block; margin-top:8px; }
+    .press-note { margin-top:28px; font-style:italic; color:var(--cream-dim); font-size:0.92rem; }
+
     @media(prefers-reduced-motion:reduce){ html { scroll-behavior:auto; } *{ transition:none!important; } }
   </style>
 </head>
@@ -341,6 +400,8 @@
       <li><a href="#duo">The Duo</a></li>
       <li><a href="#occasions">Occasions</a></li>
       <li><a href="#videos">Listen</a></li>
+      <li><a href="#venues">Venues</a></li>
+      <li><a href="#press">Press</a></li>
       <li><a href="#social">Social</a></li>
       <li><a href="#book">Book Us</a></li>
     </ul>
@@ -533,6 +594,117 @@
       </a>
     </div>
     <p class="gig-note" style="margin-top:28px;">More performances on <a href="https://www.youtube.com/@jordanjtupper" rel="noopener" target="_blank">YouTube →</a></p>
+  </div>
+</section>
+
+<section id="venues">
+  <div class="wrap">
+    <p class="eyebrow">Where We Play</p>
+    <h2>Our Venues</h2>
+    <div class="venue-grid">
+
+      <div class="venue-card">
+        <p class="venue-city">Baton Rouge, Louisiana</p>
+        <h3>The Brakes Bar</h3>
+        <p class="venue-detail">5412 Government St, Suite B<br>Baton Rouge, LA 70806</p>
+        <p class="venue-detail">(225) 529-3550</p>
+        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A speakeasy-inspired cocktail bar in Mid-City, featuring foraged botanicals, locally sourced ingredients, and a vintage 60s &amp; 70s vibe. Standley &amp; Tupper holds a regular live music residency here.</p>
+        <div class="venue-links">
+          <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">↗ spokeandhubbr.com/brakes-bar</a>
+          <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">↗ Facebook: @thebrakesbarbr</a>
+        </div>
+      </div>
+
+      <div class="venue-card">
+        <p class="venue-city">Baton Rouge, Louisiana</p>
+        <h3>City Cafe</h3>
+        <p class="venue-detail">4710 O'Neal Ln, Suite 113<br>Baton Rouge, LA 70817</p>
+        <p class="venue-detail">(225) 753-4420</p>
+        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A Baton Rouge institution since 1919, City Cafe serves Southern cuisine with a warm neighborhood feel. Standley &amp; Tupper performs jazz brunch here on select Sundays.</p>
+        <div class="venue-links">
+          <a href="https://citycafebr.net" rel="noopener" target="_blank">↗ citycafebr.net</a>
+        </div>
+      </div>
+
+      <div class="venue-card">
+        <p class="venue-city">Woodville, Mississippi</p>
+        <h3>Community Grocery</h3>
+        <p class="venue-detail">525 Commercial Row<br>Woodville, MS 39669</p>
+        <p class="venue-detail">(601) 865-5010</p>
+        <p class="venue-detail" style="margin-top:10px;font-style:italic;">A celebrated gathering place on Woodville's Historic Courthouse Square — part restaurant, part community anchor. Standley &amp; Tupper performs live jazz lunch here on select Saturdays.</p>
+        <div class="venue-links">
+          <a href="https://communitygroceryms.com" rel="noopener" target="_blank">↗ communitygroceryms.com</a>
+          <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">↗ Facebook: @communitygroceryms</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="press">
+  <div class="wrap">
+    <p class="eyebrow">In the Press</p>
+    <h2>Recognition &amp; Features</h2>
+    <div class="press-list">
+
+      <div class="press-item">
+        <div>
+          <p class="press-source">JamBase</p>
+          <p class="press-year">2023</p>
+        </div>
+        <div class="press-desc">
+          Jim Standley was named among the featured performers at the <strong>Baton Rouge Blues Festival 2023</strong> — one of America's oldest free blues festivals — alongside nationally recognized artists including Tommy Castro, Elizabeth King, and Southern Avenue.
+          <br><a href="https://www.jambase.com/festival/baton-rouge-blues-festival-2023" rel="noopener" target="_blank">View on JamBase →</a>
+        </div>
+      </div>
+
+      <div class="press-item">
+        <div>
+          <p class="press-source">Music Festival Wizard</p>
+          <p class="press-year">2023</p>
+        </div>
+        <div class="press-desc">
+          Jim Standley listed in the official artist lineup for the <strong>25th Anniversary Baton Rouge Blues Festival</strong>, covered by Music Festival Wizard among the regional and international performers.
+          <br><a href="https://www.musicfestivalwizard.com/festivals/baton-rouge-blues-festival-2023/" rel="noopener" target="_blank">View on Music Festival Wizard →</a>
+        </div>
+      </div>
+
+      <div class="press-item">
+        <div>
+          <p class="press-source">Eagle 98.1</p>
+          <p class="press-year">2023</p>
+        </div>
+        <div class="press-desc">
+          Jim Standley featured in the Baton Rouge Blues Festival lineup announcement on Eagle 98.1 — Baton Rouge's rock station — alongside regional blues legends and international acts.
+          <br><a href="https://eagle981.com/baton-rouge-blues-fest-lineup-announced/" rel="noopener" target="_blank">View on Eagle 98.1 →</a>
+        </div>
+      </div>
+
+      <div class="press-item">
+        <div>
+          <p class="press-source">SoundCloud</p>
+          <p class="press-year">Active</p>
+        </div>
+        <div class="press-desc">
+          Jim Standley maintains an active artist profile on SoundCloud, where listeners can stream recordings and explore his catalog.
+          <br><a href="https://soundcloud.com/jim-standley" rel="noopener" target="_blank">Listen on SoundCloud →</a>
+        </div>
+      </div>
+
+      <div class="press-item">
+        <div>
+          <p class="press-source">Facebook</p>
+          <p class="press-year">Active</p>
+        </div>
+        <div class="press-desc">
+          The original Jim Standley Jazz Facebook page (<strong>@batonrougejazz</strong>) has served as the duo's community hub for gig announcements, photos, and updates.
+          <br><a href="https://www.facebook.com/batonrougejazz/" rel="noopener" target="_blank">@batonrougejazz on Facebook →</a>
+        </div>
+      </div>
+
+    </div>
+    <p class="press-note">For press inquiries, interview requests, or booking information, contact <a href="mailto:jstandley@getgordon.com">jstandley@getgordon.com</a> or <a href="mailto:jordan.j.tupper@gmail.com">jordan.j.tupper@gmail.com</a>.</p>
   </div>
 </section>
 
