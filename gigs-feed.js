@@ -11,7 +11,7 @@ window.BATONROUGEJAZZ_GIGS = [
     city: "Baton Rouge",
     state: "LA",
     displayTime: "Brunch",
-    detailsHtml: "Jazz Brunch · 4710 O'Neal Ln, Baton Rouge, LA · <a href="https://citycafebr.net" rel="noopener" target="_blank">citycafebr.net</a>",
+    detailsHtml: `Jazz Brunch · 4710 O'Neal Ln, Baton Rouge, LA · <a href="https://citycafebr.net" rel="noopener" target="_blank">citycafebr.net</a>`,
     status: "public"
   },
   {
@@ -21,7 +21,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "The Brakes Bar",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -32,7 +32,7 @@ window.BATONROUGEJAZZ_GIGS = [
     city: "Baton Rouge",
     state: "LA",
     displayTime: "Brunch",
-    detailsHtml: "Jazz Brunch · Baton Rouge, LA",
+    detailsHtml: `Jazz Brunch · Baton Rouge, LA`,
     status: "public"
   },
   {
@@ -42,7 +42,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "The Brakes Bar",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -52,7 +52,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "The Brakes Bar",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -62,7 +62,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "The Brakes Bar",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -72,7 +72,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Copa",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "Baton Rouge, LA",
+    detailsHtml: `Baton Rouge, LA`,
     status: "public"
   },
   {
@@ -82,7 +82,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "The Brakes Bar",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -92,7 +92,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Community Grocery",
     city: "Woodville",
     state: "MS",
-    detailsHtml: "525 Commercial Row, Woodville, MS · <a href="https://communitygroceryms.com" rel="noopener" target="_blank">communitygroceryms.com</a> · <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `525 Commercial Row, Woodville, MS · <a href="https://communitygroceryms.com" rel="noopener" target="_blank">communitygroceryms.com</a> · <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -102,7 +102,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Copa",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "Baton Rouge, LA",
+    detailsHtml: `Baton Rouge, LA`,
     status: "public"
   },
   {
@@ -112,7 +112,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Community Grocery",
     city: "Woodville",
     state: "MS",
-    detailsHtml: "525 Commercial Row, Woodville, MS · <a href="https://communitygroceryms.com" rel="noopener" target="_blank">communitygroceryms.com</a> · <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>",
+    detailsHtml: `525 Commercial Row, Woodville, MS · <a href="https://communitygroceryms.com" rel="noopener" target="_blank">communitygroceryms.com</a> · <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -122,7 +122,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Bin 77",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: "Baton Rouge, LA",
+    detailsHtml: `Baton Rouge, LA`,
     status: "public"
   },
   {
@@ -131,7 +131,7 @@ window.BATONROUGEJAZZ_GIGS = [
     city: "New Orleans",
     state: "LA",
     displayTime: "Private Event",
-    detailsHtml: "New Orleans, LA",
+    detailsHtml: `New Orleans, LA`,
     status: "private"
   }
 ];
