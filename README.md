@@ -1,18 +1,11 @@
-# Baton Rouge Jazz calendar system
+Baton Rouge Jazz calendar system - safer fallback version
 
-Upload these three files to the root of the Baton Rouge Jazz GitHub repo:
+Upload these three files to the ROOT of the batonrougejazz.com GitHub repo, not inside a folder:
 
-- `index.html`
-- `gigs-feed.js`
-- `batonrougejazz-calendar.js`
+- index.html
+- gigs-feed.js
+- batonrougejazz-calendar.js
 
-From now on, edit gigs only in `gigs-feed.js`.
+Important: if the site still shows no gigs after upload, hard refresh the browser (Ctrl+F5) or open in incognito. GitHub Pages/browser caching can keep the old broken JS file for a bit.
 
-The page will:
-
-- render the visible gig calendar
-- sort dates automatically
-- hide past dates automatically
-- generate MusicEvent JSON-LD schema for Google
-
-Do not manually edit the calendar rows or event schema for future gigs unless you are changing the system itself.
+This version includes a built-in fallback gig list inside batonrougejazz-calendar.js, so the calendar should still render even if gigs-feed.js fails to load. Keep editing gigs-feed.js for future date changes.
