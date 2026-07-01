@@ -66,6 +66,16 @@ window.BATONROUGEJAZZ_GIGS = [
     status: "public"
   },
   {
+    date: "2026-07-23",
+    startTime: "18:00",
+    endTime: "21:00",
+    venue: "Acrylics on the Rocks",
+    city: "Prairieville",
+    state: "LA",
+    detailsHtml: `17066 Airline Hwy Ste B, Prairieville, LA 70769 · <a href="https://www.aotrla.com" rel="noopener" target="_blank">aotrla.com</a> · <a href="https://www.facebook.com/p/Acrylics-on-the-Rocks-61568994672944/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
     date: "2026-07-26",
     startTime: "10:00",
     endTime: "13:00",
