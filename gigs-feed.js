@@ -29,10 +29,10 @@ window.BATONROUGEJAZZ_GIGS = [
     startTime: "10:00",
     endTime: "13:00",
     venue: "Copa",
-    city: "Baton Rouge",
+    city: "Gonzales",
     state: "LA",
     displayTime: "Brunch",
-    detailsHtml: `Jazz Brunch · Baton Rouge, LA`,
+    detailsHtml: `Jazz Brunch · 427 South Burnside Avenue, Gonzales, LA · <a href="https://www.facebook.com/p/Copa-Cruzan-Creole-61570761189217/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -80,9 +80,10 @@ window.BATONROUGEJAZZ_GIGS = [
     startTime: "10:00",
     endTime: "13:00",
     venue: "Copa",
-    city: "Baton Rouge",
+    city: "Gonzales",
     state: "LA",
-    detailsHtml: `Baton Rouge, LA`,
+    displayTime: "Brunch",
+    detailsHtml: `Jazz Brunch · 427 South Burnside Avenue, Gonzales, LA · <a href="https://www.facebook.com/p/Copa-Cruzan-Creole-61570761189217/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -110,9 +111,10 @@ window.BATONROUGEJAZZ_GIGS = [
     startTime: "10:00",
     endTime: "13:00",
     venue: "Copa",
-    city: "Baton Rouge",
+    city: "Gonzales",
     state: "LA",
-    detailsHtml: `Baton Rouge, LA`,
+    displayTime: "Brunch",
+    detailsHtml: `Jazz Brunch · 427 South Burnside Avenue, Gonzales, LA · <a href="https://www.facebook.com/p/Copa-Cruzan-Creole-61570761189217/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
@@ -132,7 +134,7 @@ window.BATONROUGEJAZZ_GIGS = [
     venue: "Bin 77",
     city: "Baton Rouge",
     state: "LA",
-    detailsHtml: `Baton Rouge, LA`,
+    detailsHtml: `10111 Perkins Rowe Suite 160, Baton Rouge, LA 70810 · <a href="https://bin77.com" rel="noopener" target="_blank">bin77.com</a> · <a href="https://www.instagram.com/bin_77/" rel="noopener" target="_blank">Instagram</a>`,
     status: "public"
   },
   {
