@@ -46,6 +46,26 @@ window.BATONROUGEJAZZ_GIGS = [
     status: "public"
   },
   {
+    date: "2026-07-04",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
+    date: "2026-07-08",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
     date: "2026-07-15",
     startTime: "18:00",
     endTime: "22:00",
