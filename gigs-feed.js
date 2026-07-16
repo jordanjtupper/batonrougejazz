@@ -158,6 +158,16 @@ window.BATONROUGEJAZZ_GIGS = [
     status: "public"
   },
   {
+    date: "2026-10-20",
+    startTime: "17:30",
+    endTime: "20:30",
+    venue: "Bin 77",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `10111 Perkins Rowe Suite 160, Baton Rouge, LA 70810 · <a href="https://bin77.com" rel="noopener" target="_blank">bin77.com</a> · <a href="https://www.instagram.com/bin_77/" rel="noopener" target="_blank">Instagram</a>`,
+    status: "public"
+  },
+  {
     date: "2026-12-12",
     venue: "Private Wedding",
     city: "New Orleans",
