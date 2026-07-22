@@ -117,6 +117,16 @@ window.BATONROUGEJAZZ_GIGS = [
     status: "public"
   },
   {
+    date: "2026-08-05",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
     date: "2026-08-08",
     startTime: "11:00",
     endTime: "14:00",
@@ -138,6 +148,36 @@ window.BATONROUGEJAZZ_GIGS = [
     status: "public"
   },
   {
+    date: "2026-08-12",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
+    date: "2026-08-16",
+    startTime: "14:00",
+    endTime: "17:00",
+    venue: "Southdowns Grille",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `4205 Perkins Rd, Baton Rouge, LA 70808 · <a href="https://southdownsgrille.com" rel="noopener" target="_blank">southdownsgrille.com</a>`,
+    status: "public"
+  },
+  {
+    date: "2026-08-19",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
     date: "2026-08-22",
     startTime: "11:00",
     endTime: "14:00",
@@ -145,6 +185,16 @@ window.BATONROUGEJAZZ_GIGS = [
     city: "Woodville",
     state: "MS",
     detailsHtml: `525 Commercial Row, Woodville, MS · <a href="https://communitygroceryms.com" rel="noopener" target="_blank">communitygroceryms.com</a> · <a href="https://www.facebook.com/communitygroceryms/" rel="noopener" target="_blank">Facebook</a>`,
+    status: "public"
+  },
+  {
+    date: "2026-08-26",
+    startTime: "18:00",
+    endTime: "22:00",
+    venue: "The Brakes Bar",
+    city: "Baton Rouge",
+    state: "LA",
+    detailsHtml: `5412 Government St, Baton Rouge, LA · <a href="https://spokeandhubbr.com/brakes-bar" rel="noopener" target="_blank">spokeandhubbr.com</a> · <a href="https://www.facebook.com/thebrakesbarbr/" rel="noopener" target="_blank">Facebook</a>`,
     status: "public"
   },
   {
